@@ -1,6 +1,7 @@
 // src/pages/OTP.tsx  (or src/components/auth/OTP.tsx)
 import { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; // adjust router as needed
+import Header from '../components/home-page/header';
 
 export default function OTP() {
   const [otp, setOtp] = useState<string[]>(Array(6).fill(''));
