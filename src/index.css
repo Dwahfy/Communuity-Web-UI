@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+   themes: light --default, dark --prefersdark, synthwave;
+} 
+
+:root {
+  font-family: 'Radio Canada', 'Noto Sans', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
