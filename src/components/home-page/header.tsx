@@ -29,7 +29,11 @@ export default function Header() {
       >
         {/* Logo */}
  <div className="flex-1 flex items-center gap-2.5 min-w-0">
-  <a href="#home" className="flex items-center gap-2.5 hover:opacity-90 transition-opacity">
+  <a  className="flex items-center gap-2.5 hover:opacity-90 transition-opacity"
+          onClick={() => {
+              window.location.href = '/';
+              // OR modal trigger, etc.
+            }}>
     {/* Optional: small icon / logo if you add one later */}
     {/* <div className="w-7 h-7 rounded bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm">
       D
@@ -57,12 +61,18 @@ export default function Header() {
           </ul>
 
           <button className="btn btn-primary btn-md"
-          onClick={() => window.open('https://form.typeform.com/to/NiVPfw3J', '_blank')}>
+                  onClick={() => {
+              window.location.href = '/email-checker';
+              // OR modal trigger, etc.
+            }}>
             Sign-up
           </button>
 
                     <button className="btn btn-primary btn-md"
-          onClick={() => window.open('https://form.typeform.com/to/NiVPfw3J', '_blank')}>
+               onClick={() => {
+              window.location.href = '/login';
+              // OR modal trigger, etc.
+            }}>
             Sign-in
           </button>
         </div>

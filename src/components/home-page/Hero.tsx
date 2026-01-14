@@ -21,7 +21,7 @@ export default function Hero() {
             className="btn btn-primary btn-lg sm:btn-xl w-full sm:w-64 min-w-[260px] shadow-xl shadow-indigo-600/30 hover:shadow-indigo-600/50 transition-all duration-300 text-lg font-semibold"
             onClick={() => {
               // Replace with your actual routing logic (e.g. react-router, next.js link, or modal trigger)
-              window.location.href = '/signup';
+              window.location.href = '/email-checker';
               // OR if using modal: setShowSignupModal(true)
             }}
           >
