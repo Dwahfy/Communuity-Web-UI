@@ -1,6 +1,7 @@
 // src/pages/Login.tsx  (or components/auth/Login.tsx)
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../components/home-page/header';
 
 export default function Login() {
   const [formData, setFormData] = useState({
@@ -34,6 +35,8 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-base-100 px-4 py-12">
+          <Header />
+        
       <div className="card w-full max-w-md bg-base-100/70 backdrop-blur-xl shadow-2xl border border-indigo-500/20">
         <div className="card-body p-8 md:p-10">
           <h2 className="card-title text-3xl font-bold text-center mb-2 bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
