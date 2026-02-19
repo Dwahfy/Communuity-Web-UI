@@ -1,0 +1,28 @@
+<svg width="848" height="399" viewBox="0 0 848 399" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-31" y="-35" width="910.003" height="460.854"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(17.5px);clip-path:url(#bgblur_0_55_205_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_d_55_205)" data-figma-bg-blur-radius="35">
+<path d="M818.658 296.673L843.803 384.469C844.927 388.393 841.129 391.937 837.292 390.546L720.941 348.353C716.813 346.855 716.482 341.144 720.41 339.18L811.615 293.578C814.414 292.178 817.796 293.665 818.658 296.673Z" fill="url(#paint0_linear_55_205)"/>
+<path d="M4 30C4 13.4314 17.4315 0 34 0H796C812.569 0 826 13.4315 826 30V338.918C826 355.486 812.569 368.918 796 368.918H34C17.4314 368.918 4 355.486 4 338.918V30Z" fill="url(#paint1_linear_55_205)"/>
+</g>
+<defs>
+<filter id="filter0_d_55_205" x="-31" y="-35" width="910.003" height="460.854" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_55_205"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_55_205" result="shape"/>
+</filter>
+<clipPath id="bgblur_0_55_205_clip_path" transform="translate(31 35)"><path d="M818.658 296.673L843.803 384.469C844.927 388.393 841.129 391.937 837.292 390.546L720.941 348.353C716.813 346.855 716.482 341.144 720.41 339.18L811.615 293.578C814.414 292.178 817.796 293.665 818.658 296.673Z"/>
+<path d="M4 30C4 13.4314 17.4315 0 34 0H796C812.569 0 826 13.4315 826 30V338.918C826 355.486 812.569 368.918 796 368.918H34C17.4314 368.918 4 355.486 4 338.918V30Z"/>
+</clipPath><linearGradient id="paint0_linear_55_205" x1="35.42" y1="52.7199" x2="977.871" y2="484.369" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A986F9"/>
+<stop offset="1" stop-color="#C9B1FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_55_205" x1="35.42" y1="52.7199" x2="1427.25" y2="253.062" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A986F9"/>
+<stop offset="1" stop-color="#C9B1FF"/>
+</linearGradient>
+</defs>
+</svg>

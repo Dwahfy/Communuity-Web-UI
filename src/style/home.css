@@ -1,0 +1,131 @@
+.home {
+  --blue-900: #0b2c45;
+  --blue-700: #0f5fa8;
+  --cyan-500: #1ec7d8;
+  --cyan-200: #c8f4f7;
+  --ink: #14212b;
+  --paper: #f6fbff;
+  --card: #ffffff;
+  --border: #dbe7f1;
+  min-height: 100vh;
+  padding: 2.5rem clamp(1.5rem, 4vw, 4rem) 3.5rem;
+  position: relative;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  inset: -25% -15% auto;
+  height: 60%;
+  background: radial-gradient(circle at top, #d6f5fb 0%, transparent 65%);
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.home > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-brand {
+  font-family: 'Fraunces', 'Times New Roman', serif;
+  font-size: 1.2rem;
+  color: var(--blue-900);
+}
+
+.home-nav {
+  display: flex;
+  gap: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.home-hero {
+  max-width: 700px;
+  margin-top: clamp(2.5rem, 8vw, 5rem);
+}
+
+.home-hero h1 {
+  font-family: 'Fraunces', 'Times New Roman', serif;
+  font-size: clamp(2.6rem, 6vw, 4.2rem);
+  line-height: 1.05;
+  margin: 0.75rem 0 1rem;
+  color: var(--blue-900);
+}
+
+.home-lede {
+  font-size: 1.05rem;
+  color: #395365;
+  margin-bottom: 2rem;
+}
+
+.home-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home-primary,
+.home-secondary {
+  border-radius: 999px;
+  padding: 0.75rem 1.6rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.home-primary {
+  background: var(--cyan-500);
+  color: #062b35;
+  border-color: var(--cyan-500);
+}
+
+.home-secondary {
+  background: #ffffff;
+  color: var(--ink);
+  border-color: var(--border);
+}
+
+.home-updates {
+  max-width: 520px;
+  margin-top: 2.5rem;
+  color: #395365;
+}
+
+.home-updates h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--blue-700);
+}
+
+.home-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: #587185;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 720px) {
+  .home-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-nav {
+    flex-wrap: wrap;
+  }
+}
